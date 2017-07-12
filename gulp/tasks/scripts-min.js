@@ -1,0 +1,1 @@
+var gulp=require("gulp"),webpack=require("webpack");gulp.task("scripts",function(e){webpack(require("../../webpack.config.js"),function(o,c){o&&console.log(o.toString()),console.log(c.toString()),e()})});
